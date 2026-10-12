@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Olivia Al Fitroh | Portofolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <nav class="wrap" aria-label="Navigasi utama">
+    <a class="logo" href="#top">Olivia</a>
+    <button class="burger" id="burger" aria-expanded="false" aria-controls="menu">Menu</button>
+    <ul class="menu" id="menu">
+      <li><a href="#tentang">Tentang</a></li>
+      <li><a href="#keahlian">Keahlian</a></li>
+      <li><a href="#hobi">Hobi</a></li>
+      <li><a href="#motivasi">Motivasi</a></li>
+      <li><a href="#kontak">Kontak</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main id="top">
+  <div class="hero">
+    <div class="wrap">
+      <div>
+        <h1>Olivia Al Fitroh</h1>
+        <p class="sub">Mahasiswi Informatika yang <span id="typed"></span></p>
+        <div class="btns">
+          <a class="btn main" href="#kontak">Hubungi saya</a>
+          <a class="btn ghost" href="#tentang">Kenalan dulu</a>
+        </div>
+      </div>
+
+      <article class="ticket" aria-label="Kartu perkenalan">
+        <div class="ticket-top"><span>Kartu Perjalanan</span><span>Semester 3</span></div>
+        <dl class="ticket-body">
+          <div><dt>Nama</dt><dd>Olivia Al Fitroh</dd></div>
+          <div><dt>Jurusan</dt><dd>Informatika</dd></div>
+          <div><dt>Kampus</dt><dd>Universitas Muhammadiyah Maumere</dd></div>
+        </dl>
+        <div class="ticket-tear"></div>
+        <p class="ticket-foot">Tujuan: jadi anak yang berguna untuk ibu.</p>
+      </article>
+    </div>
+  </div>
+
+  <section id="tentang">
+    <div class="wrap about">
+      <h2>Tentang saya</h2>
+      <p>Halo, saya Olivia, mahasiswi Informatika semester 3 di Universitas Muhammadiyah Maumere. Saya sedang belajar membuat website dan memahami dunia teknologi dari dasar.</p>
+      <p>Saya terbiasa membagi waktu antara kuliah dan bekerja. Warna favorit saya biru, dan kalau ada waktu luang, saya suka jalan-jalan.</p>
+    </div>
+  </section>
+
+  <section id="keahlian" class="alt">
+    <div class="wrap">
+      <h2>Keahlian</h2>
+      <div class="skills">
+        <div class="skill">
+          <h3>Kerja sambil kuliah</h3>
+          <p>Bisa mengatur waktu, tetap disiplin, dan bertanggung jawab di dua dunia sekaligus.</p>
+        </div>
+        <div class="skill">
+          <h3>Dasar pemrograman web</h3>
+          <p>Belajar HTML, CSS, dan JavaScript untuk membuat halaman web yang rapi dan interaktif.</p>
+        </div>
+        <div class="skill">
+          <h3>Mau terus belajar</h3>
+          <p>Semester 3 masih awal, dan saya bersemangat menambah ilmu di bidang informatika.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="hobi">
+    <div class="wrap travel">
+      <div>
+        <h2>Hobi: jalan-jalan</h2>
+        <p>Traveling atau "jalan-jalan" adalah cara saya melepas penat dan melihat hal baru. Setiap tempat memberi cerita dan semangat untuk kembali belajar.</p>
+        <p id="fact" aria-live="polite">Mau ke mana kita berikutnya?</p>
+        <button class="btn" id="spin" type="button">Pilih tujuan acak</button>
+      </div>
+      <div class="stamp" aria-hidden="true"><div>Jalan<br>Jalan<span>Biru dan semangat</span></div></div>
+    </div>
+  </section>
+
+  <section id="motivasi" class="motive">
+    <div class="wrap">
+      <h2>Motivasi hidup</h2>
+      <p class="big">Jadi anak yang berguna untuk ibu.</p>
+      <blockquote class="ayat">
+        <p class="ar" lang="ar" dir="rtl">إِنَّ مَعَ الْعُسْرِ يُسْرًا</p>
+        <p lang="ar-Latn">Inna ma'al 'usri yusra</p>
+        <p>"Sesungguhnya bersama kesulitan ada kemudahan."</p>
+        <small>QS. Al-Insyirah (94): 6</small>
+      </blockquote>
+    </div>
+  </section>
+
+  <section id="kontak">
+    <div class="wrap">
+      <h2>Kontak</h2>
+      <div class="contact-list">
+        <div>
+          <span id="email">oliviaalfitroh03@gmail.com</span>
+          <button class="btn" id="copy" type="button">Salin email</button>
+        </div>
+        <div><span>Universitas Muhammadiyah Maumere</span></div>
+      </div>
+      <p style="margin-top:20px"><a class="btn main" href="mailto:oliviaalfitroh03@gmail.com">Kirim email</a></p>
+    </div>
+  </section>
+</main>
+
+<footer>&copy; <span id="year"></span> Olivia Al Fitroh</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
